@@ -78,7 +78,7 @@ function App() {
       </div>
       <div className="col-2">
         <label className="p-2">Gender:</label>
-        <input type="radio" value="male" defaultChecked 
+        <input type="radio" value="male" 
         onChange={(e) => setGender(e.target.value)}/><label className="p-2">Male</label>
         <input type="radio" value="female"
         onChange={(e) => setGender(e.target.value)} /><label className="p-2">Female</label>
